@@ -9,5 +9,5 @@ setup(
     author='Jason Crockett; Ben Cullen',
     author_email='deddokatana@gmail.com;ancient.sun.ra@gmail.com',
     description='Hackable Voice Commands for your computer',
-    install_requires = ['SpeechRecognition']
+    install_requires = ['SpeechRecognition','PyAudio']
 )
