@@ -10,7 +10,7 @@ debugMode = 2
 
 with speech.Microphone() as source:
     print("Starting Listening")
-    TemporaryAudioFile = r.listen()
+    TemporaryAudioFile = r.listen(source)
     print("Sample Gathered")
 
 def DebugModeTest():
@@ -25,11 +25,6 @@ def SwitchMicOn():
 
 def SwitchMicOff():
     pass
-
-
-
-
-
 
 def voiceCaptureOn():
     pass
