@@ -2,3 +2,5 @@
 
 
 ## needs pyaudio
+
+## https://github.com/Uberi/speech_recognition#readme
